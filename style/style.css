@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6{
   #menu-bar {
     width: 45px;
     height: 40px;
-    margin: 30px 0 20px 20px;
+    margin: 30px 0 20px 40px;
     cursor: pointer;
   }
   
@@ -197,7 +197,6 @@ h1, h2, h3, h4, h5, h6{
   .nav_burger.change #last_li:hover{
     background: none;
   }
-
 
 /* Intro */
 .intro{
@@ -505,7 +504,8 @@ h1, h2, h3, h4, h5, h6{
         display: none;
     }
     #menu{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     .nav_burger{
         text-align: center;
@@ -518,7 +518,13 @@ h1, h2, h3, h4, h5, h6{
         display: none;
     }
     #menu{
-        display: block;
+        top: 30%;
+        left: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    #menu-bar{
+        margin: 30px 0 20px 40px;
     }
     .nav_burger{
         text-align: center;
@@ -546,7 +552,7 @@ h1, h2, h3, h4, h5, h6{
     }
     #menu{
         top: 30%;
-        left: 85%;
+        left: 82%;
         display: flex;
         flex-direction: column;
     }
@@ -585,9 +591,6 @@ h1, h2, h3, h4, h5, h6{
     .item{
         font-size: 12px;
     }
-    #menu-bar{
-        
-    }
 
 }
 
@@ -597,7 +600,10 @@ h1, h2, h3, h4, h5, h6{
         display: none;
     }
     #menu{
-        display: none;
+        top: 30%;
+        left: 79%;
+        display: flex;
+        flex-direction: column;
     }
     .footer_logo{
         font-size: 16px;
