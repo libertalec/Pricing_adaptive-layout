@@ -116,15 +116,16 @@ h1, h2, h3, h4, h5, h6{
 #menu {
     z-index: 2;
     top: 30%;
-    left: 88%;
+    right: 10px;
     position: absolute;
     display: none;
+    width: 140px;
   }
   
   #menu-bar {
     width: 45px;
     height: 40px;
-    margin: 30px 0 20px 40px;
+    margin: 30px auto 20px;
     cursor: pointer;
   }
   
@@ -196,6 +197,9 @@ h1, h2, h3, h4, h5, h6{
   }
   .nav_burger.change #last_li:hover{
     background: none;
+  }
+  #menu-bar.change{
+    margin: 30px auto 20px;
   }
 
 /* Intro */
@@ -519,12 +523,9 @@ h1, h2, h3, h4, h5, h6{
     }
     #menu{
         top: 30%;
-        left: 85%;
+        right: 10px;
         display: flex;
         flex-direction: column;
-    }
-    #menu-bar{
-        margin: 30px 0 20px 40px;
     }
     .nav_burger{
         text-align: center;
@@ -539,9 +540,17 @@ h1, h2, h3, h4, h5, h6{
     }
     .selection{
         margin: 1.25rem 0;
+        width: 45rem;
+    }
+    .price_list_information{
+        width: 90%;
     }
     .select_plan{
-        margin-top: -0.4rem;
+        margin-top: 1.2rem;
+    }
+    .select_plan a{
+        padding: 1.25rem 5.36rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -552,7 +561,7 @@ h1, h2, h3, h4, h5, h6{
     }
     #menu{
         top: 30%;
-        left: 82%;
+        right: 10px;
         display: flex;
         flex-direction: column;
     }
@@ -568,9 +577,17 @@ h1, h2, h3, h4, h5, h6{
     }
     .selection{
         margin: 1.25rem 0;
+        width: 45rem;
+    }
+    .price_list_information{
+        width: 90%;
     }
     .select_plan{
-        margin-top: -0.4rem;
+        margin-top: 1.2rem;
+    }
+    .select_plan a{
+        padding: 1.25rem 5.36rem;
+        font-size: 0.875rem;
     }
     .footer_nav{
         display: flex;
@@ -601,15 +618,25 @@ h1, h2, h3, h4, h5, h6{
     }
     #menu{
         top: 30%;
-        left: 79%;
+        right: 10px;
         display: flex;
         flex-direction: column;
+    }
+    .nav_burger ul li{
+        height: 35px;
+        margin-top: -5px;
+    }
+    .nav_burger{
+        margin-top: -25px;
     }
     .footer_logo{
         font-size: 16px;
     }
     .slide_title{
         font-size: 20px;
+    }
+    .slide_intro_buttons{
+        flex-direction: column;
     }
     .slide_intro_buttons a{
         width: 100px;
@@ -621,19 +648,17 @@ h1, h2, h3, h4, h5, h6{
         font-weight: bold;
         text-transform: uppercase;
         text-align: center;
-        padding: 10px 10px;
+        padding: 12px 17px;
         margin: 5px;
+        margin-top: 40px;
+    }
+    #explore_features_btn{
+        margin-top: 60px;
     }
     .header_logo{
         font-size: 20px;
     }
-    /* #menu{
-        top: 30%;
-        left: 88%;
-        display: flex;
-        flex-direction: column;
+    .site_information p{
+        width: 70%;
     }
-    .nav_burger{
-        text-align: center;
-    } */
 }
